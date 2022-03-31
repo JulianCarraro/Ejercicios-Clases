@@ -1,4 +1,12 @@
 /*
+ ============================================================================
+ Name        : EjercicioA_Clase2
+ Author      : Julian Carraro
+ Version     : 1E
+ ============================================================================
+*/
+
+/*
 Ejercicio 2-1: Ingresar 5 números enteros calcular y mostrar el promedio de los números.
 Probar la aplicación con distintos valores.
 Ejemplo 1:  3 - 5 - 7 - 9 - 1
@@ -8,7 +16,7 @@ Ejemplo 2:  2 - 1 - 8 -1 - 2
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void) {
+int main(void){
 	setbuf(stdout, NULL);
 
 	int numero;
@@ -32,3 +40,5 @@ int main(void) {
 
 	return EXIT_SUCCESS;
 }
+
+
